@@ -204,6 +204,11 @@
  		                </goals>
  		            </execution>
  		        </executions>
+				<plugin>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>5.4.0.6356</version>
+</plugin>
  		</plugin>
 		
         </plugins>
